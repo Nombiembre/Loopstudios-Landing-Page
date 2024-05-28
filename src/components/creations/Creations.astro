@@ -38,12 +38,11 @@ const creations = [
 <div class="grid gap-8 md:grid-cols-4">
   {
     creations.map(({ title, image }) => {
-      console.log(image)
       return (
         <a href="#" class="card || relative block max-w-fit">
           <div class="card-image || transition-opacity duration-300 w-full">
-            <img src={`/public/images/mobile/${image}`} alt={title} class=" md:hidden" />
-            <img src={`/public/images/desktop/${image}`} alt={title} class=" hidden md:block" />
+            <img src={`/images/mobile/${image}`} alt={title} class=" md:hidden" />
+            <img src={`/images/desktop/${image}`} alt={title} class=" hidden md:block" />
           </div>
           <div class="px-4 pb-2 z-50 md:mx-8 md:bottom-6 absolute bottom-0">
             <h3 class="transition-colors duration-[400] text-white text-2xl md:text-3xl font-light leading-tight max-w-[10ch] md:max-w-[9ch]">{title}</h3>
