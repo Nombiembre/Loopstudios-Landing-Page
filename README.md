@@ -1,8 +1,10 @@
 # Frontend Mentor - Loopstudios landing page solution
 
+<base target="_blank">
+
 ![](./public/screenshot.png)
 
-This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw){:target="_blank"}. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -26,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://loopstudios-landing-page-pearl-rho.vercel.app/){:target="_blank"}
+- Live Site URL: [Add live site URL here](https://loopstudios-landing-page-pearl-rho.vercel.app/)
 
 ## My process
 
@@ -37,11 +39,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Astro](https://astro.build/){:target="_blank"} - Astro
-- [Tailwind](https://tailwindcss.com/){:target="_blank"} - For styles
+- [Astro](https://astro.build/) - Astro
+- [Tailwind](https://tailwindcss.com/) - For styles
 
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 
-- Frontend Mentor - [@Nombiembre](https://www.frontendmentor.io/profile/Nombiembre){:target="_blank"}
+- Frontend Mentor - [@Nombiembre](https://www.frontendmentor.io/profile/Nombiembre)
