@@ -2,7 +2,7 @@
 
 ![](./public/screenshot.png)
 
-This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw target="_blank"). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the <a href="https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw"> Loopstudios landing page challenge on Frontend Mentor</a> Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://loopstudios-landing-page-pearl-rho.vercel.app/)
+- Live Site URL: <a href="https://loopstudios-landing-page-pearl-rho.vercel.app/">https://loopstudios-landing-page-pearl-rho.vercel.app/</a>
 
 ## My process
 
@@ -37,11 +37,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Astro](https://astro.build/) - Astro
-- [Tailwind](https://tailwindcss.com/) - For styles
+- <a href="https://astro.build/">Astro</a> - Framework
+- <a href="https://tailwindcss.com/">Tailwind</a> - For styles
 
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 
-- Frontend Mentor - [@Nombiembre](https://www.frontendmentor.io/profile/Nombiembre)
+- Frontend Mentor - <a href="https://www.frontendmentor.io/profile/Nombiembre">@Nombiembre</a>
