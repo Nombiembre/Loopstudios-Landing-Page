@@ -2,7 +2,7 @@
 
 ![](./public/screenshot.png)
 
-This is a solution to the <a target="_blank" href="https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw"> Loopstudios landing page challenge on Frontend Mentor</a> Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,8 +12,6 @@ This is a solution to the <a target="_blank" href="https://www.frontendmentor.io
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: <a target="_blank" href="https://loopstudios-landing-page-pearl-rho.vercel.app/">https://loopstudios-landing-page-pearl-rho.vercel.app/</a>
+- Live Site URL: [https://loopstudios-landing-page-pearl-rho.vercel.app/](https://loopstudios-landing-page-pearl-rho.vercel.app/)
 
 ## My process
 
@@ -37,11 +35,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- <a target="_blank" href="https://astro.build/">Astro</a> - Framework
-- <a target="_blank" href="https://tailwindcss.com/">Tailwind</a> - For styles
+- [Astro](https://astro.build/) - Framework
+- [Tailwind](https://tailwindcss.com/) - For styles
 
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 
-- Frontend Mentor - <a target="_blank" href="https://www.frontendmentor.io/profile/Nombiembre">@Nombiembre</a>
+- Frontend Mentor - [@Nombiembre](https://www.frontendmentor.io/profile/Nombiembre)
