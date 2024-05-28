@@ -1,0 +1,16 @@
+---
+interface Props {
+  style?: string
+}
+
+const { style } = Astro.props as Props
+---
+
+<a class=`${style} max-w-fit block border-2 border-black py-2 px-10 uppercase text-lg tracking-[.24rem] text-black hover:bg-black hover:text-white transition-colors duration-300` href="">see all</a>
+
+
+<style>
+  a {
+    font-family: var(--ff-alata);
+  }
+</style>

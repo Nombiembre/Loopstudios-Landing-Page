@@ -1,0 +1,36 @@
+---
+import { Image } from 'astro:assets'
+import Nav from './Nav.astro'
+---
+
+<header class="absolute w-full inset-0 h-full isolate pt-12">
+  <div class="hola || container flex items-center justify-between">
+    <Image src="/images/logo.svg" alt="Logo" width={200} height={200} class="max-w-[150px] z-20 md:min-w-[200px]" />
+    <picture id="mobile-menu" class="block md:hidden z-20">
+      <img src="/images/icon-hamburger.svg" id="hamburger-icon" alt="hamburger-icon" />
+      <img src="/images/icon-close.svg" id="close-icon" alt="close-icon" class="hidden" />
+    </picture>
+    <Nav isPrimary={true} />
+  </div>
+</header>
+
+<script>
+  const nav = document.getElementById('primary-nav') as HTMLElement
+  const mobileMenu = document.getElementById('mobile-menu') as HTMLElement
+  const hamburgerIcon = document.getElementById('hamburger-icon') as HTMLElement
+  const closeIcon = document.getElementById('close-icon') as HTMLElement
+  const body = document.body
+
+  mobileMenu.addEventListener('click', () => {
+    const toggle = nav.toggleAttribute('data-mobile')
+    if (toggle) {
+      hamburgerIcon.classList.toggle('hidden')
+      closeIcon.classList.toggle('hidden')
+      body.classList.toggle('overflow-hidden')
+    } else {
+      hamburgerIcon.classList.toggle('hidden')
+      closeIcon.classList.toggle('hidden')
+      body.classList.toggle('overflow-hidden')
+    }
+  })
+</script>

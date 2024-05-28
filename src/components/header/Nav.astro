@@ -1,0 +1,48 @@
+---
+interface Props {
+  isPrimary: boolean
+}
+
+const { isPrimary } = Astro.props as Props
+---
+
+<nav id={isPrimary ? 'primary-nav' : 'secondary-nav'} class="hidden md:block z-50">
+  <div class="container">
+    <ul class="flex items-center justify-between gap-8 text-xl text-white font-semibold">
+      <li><a href="">About</a></li>
+      <li><a href="">Careers</a></li>
+      <li><a href="">Events</a></li>
+      <li><a href="">Products</a></li>
+      <li><a href="">Support</a></li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  .primary-nav {
+    @apply flex items-center justify-between gap-8;
+  }
+
+  [data-mobile] {
+    @apply text-white uppercase bg-black h-full absolute inset-0 z-10 flex items-center;
+    & ul {
+      @apply grid gap-6;
+    }
+    a {
+      font-family: var(--ff-josefin-sans);
+      font-weight: 300;
+    }
+  }
+
+  a {
+    @apply border-b-2 text-4xl md:text-lg border-transparent transition-all duration-300;
+
+    &:hover {
+      @apply border-b-white;
+    }
+  }
+</style>

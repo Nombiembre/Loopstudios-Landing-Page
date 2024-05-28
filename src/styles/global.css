@@ -1,0 +1,46 @@
+:root {
+  --ff-alata: 'Alata', sans-serif;
+  --ff-josefin-sans: 'Josefin Sans', sans-serif;
+}
+
+body {
+  font-size: 15px;
+  font-family: var(--ff-josefin-sans);
+}
+
+header {
+  font-family: var(--ff-alata);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-josefin-sans);
+  text-transform: uppercase;
+}
+
+h1 {
+  @apply text-[2.75rem] md:text-7xl;
+}
+
+h2 {
+  @apply text-3xl md:text-5xl;
+}
+
+.container {
+  --_max-width: 1150px;
+
+  width: min(var(--_max-width), 98%);
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+.flow-content > * + * {
+  margin-top: 2rem;
+}
+
+.flow-content-sm > * + * {
+  margin-top: 1rem;
+}

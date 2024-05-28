@@ -1,0 +1,23 @@
+---
+import Nav from './Nav.astro'
+import SocialIcons from './SocialIcons.astro'
+---
+
+<footer class="bg-black py-8">
+  <div class="container || flex flex-col items-center md:flex-row justify-between">
+    <div class="md:grid md:gap-6">
+      <img src="/images/logo.svg" alt="Logo" class="w-[150px] md:w-[200px]" />
+      <Nav />
+    </div>
+    <div class="md:grid md:gap-6 md:place-items-end">
+      <SocialIcons />
+      <p class="text-white text-center">© <span id="year"></span> Loopstudios. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const span = document.getElementById('year') as HTMLSpanElement
+  const year = new Date().getFullYear()
+  span.innerText = `${year}`
+</script>
